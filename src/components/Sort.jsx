@@ -1,13 +1,18 @@
 import {useState} from "react";
 
-export default function Sort() {
+export default function Sort({value, onChangeSort}) {
     const [opened, setOpened] = useState(false);
-    const [activeType, setActiveType] = useState(0);
 
-    const SORT_NAMES = ['популярности', 'цене', 'алфавиту']
-    const sortName = SORT_NAMES[activeType]
+    const SORT_NAMES = [
+        {id: 1, name: 'популярности 🔻', sort: 'rating', order: 'desc'},
+        {id: 2, name: 'популярности 🔺', sort: 'rating', order: 'asc'},
+        {id: 3, name: 'цене 🔻', sort: 'price', order: 'desc'},
+        {id: 4, name: 'цене 🔺', sort: 'price', order: 'asc'},
+        {id: 5, name: 'алфавиту 🔻', sort: 'pizzaName', order: 'desc'},
+        {id: 6, name: 'алфавиту 🔺', sort: 'pizzaName', order: 'asc'}
+    ]
     const onSelectSortType = (i) => {
-        setActiveType(i)
+        onChangeSort(i)
         setOpened(false)
     }
 
@@ -28,20 +33,20 @@ export default function Sort() {
                 </svg>
                 <b>Сортировка по:</b>
                 <span onClick={() => setOpened(!opened)}>
-                    { sortName }
+                    { value.name }
                 </span>
             </div>
             {
                 opened && <div className="sort__popup">
                     <ul>
                         {
-                            SORT_NAMES.map((name, i) => (
+                            SORT_NAMES.map((item, i) => (
                                 <li
                                     key={i}
-                                    onClick={() => onSelectSortType(i)}
-                                    className={activeType === i ? 'active' : ''}
+                                    onClick={() => onSelectSortType(item)}
+                                    className={value.id === item.id ? 'active' : ''}
                                 >
-                                    {name}
+                                    {item.name}
                                 </li>
                             ))
                         }
