@@ -3,18 +3,30 @@
     "id": 0,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
     "pizzaName": "Пепперони Фреш с перцем",
-    "types": [0, 1],
-    "sizes": [26, 30, 40],
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 803,
-    "category": 0,
+    "category": 4,
     "rating": 4
   },
   {
     "id": 1,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
     "pizzaName": "Сырная",
-    "types": [0],
-    "sizes": [26, 40],
+    "types": [
+      0
+    ],
+    "sizes": [
+      26,
+      40
+    ],
     "price": 245,
     "category": 1,
     "rating": 6
@@ -23,8 +35,13 @@
     "id": 2,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
     "pizzaName": "Цыпленок барбекю",
-    "types": [0],
-    "sizes": [26, 40],
+    "types": [
+      0
+    ],
+    "sizes": [
+      26,
+      40
+    ],
     "price": 295,
     "category": 1,
     "rating": 4
@@ -33,8 +50,14 @@
     "id": 3,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
     "pizzaName": "Кисло-сладкий цыпленок",
-    "types": [1],
-    "sizes": [26, 30, 40],
+    "types": [
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 275,
     "category": 2,
     "rating": 2
@@ -43,8 +66,15 @@
     "id": 4,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
     "pizzaName": "Чизбургер-пицца",
-    "types": [0, 1],
-    "sizes": [26, 30, 40],
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 415,
     "category": 3,
     "rating": 8
@@ -53,8 +83,13 @@
     "id": 5,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
     "pizzaName": "Крэйзи пепперони",
-    "types": [0],
-    "sizes": [30, 40],
+    "types": [
+      0
+    ],
+    "sizes": [
+      30,
+      40
+    ],
     "price": 580,
     "category": 2,
     "rating": 2
@@ -63,8 +98,15 @@
     "id": 6,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
     "pizzaName": "Пепперони",
-    "types": [0, 1],
-    "sizes": [26, 30, 40],
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 675,
     "category": 1,
     "rating": 9
@@ -73,8 +115,15 @@
     "id": 7,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
     "pizzaName": "Маргарита",
-    "types": [0, 1],
-    "sizes": [26, 30, 40],
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 450,
     "category": 4,
     "rating": 10
@@ -83,8 +132,15 @@
     "id": 8,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
     "pizzaName": "Четыре сезона",
-    "types": [0, 1],
-    "sizes": [26, 30, 40],
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 395,
     "category": 5,
     "rating": 10
@@ -93,10 +149,204 @@
     "id": 9,
     "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
     "pizzaName": "Овощи и грибы 🌱",
-    "types": [0, 1],
-    "sizes": [26, 30, 40],
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
     "price": 285,
     "category": 5,
+    "rating": 7
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/9a468e7d8f5149d89464b4e174599b65_584x584.png",
+    "pizzaName": "Пицца из половинок",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 670,
+    "category": 5,
+    "rating": 7
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/ae7892e0a7b44a9ab6bfc0a9d3c8eb0d_584x584.png",
+    "pizzaName": "Миу-пицца с ветчиной и сюрприз",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 519,
+    "category": 1,
+    "rating": 7
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/c1b205fe56e54b60a17911e5ae3ba7c3_584x584.png",
+    "pizzaName": "Сырная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 299,
+    "category": 2,
+    "rating": 7
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/230402a9bc954b2b9a56d262d5db4972_584x584.png",
+    "pizzaName": "Чоризо фреш",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 319,
+    "category": 2,
+    "rating": 7
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/3f1d60236d7140a0bed6fc35c659a02e_584x584.png",
+    "pizzaName": "Карбонара",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 489,
+    "category": 4,
+    "rating": 7
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/548953a16b74498c9d9e6dbbb0ae2886_584x584.png",
+    "pizzaName": "Пицца-конструктор",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 299,
+    "category": 1,
+    "rating": 7
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/3e584d1971114a338b1d3f8c81c19c8b_584x584.png",
+    "pizzaName": "Аррива!",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 439,
+    "category": 4,
+    "rating": 7
+  },
+  {
+    "id": 17,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/fa971e3178d445dcabc087b8104b79b0_584x584.png",
+    "pizzaName": "Диабло",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 489,
+    "category": 3,
+    "rating": 7
+  },
+  {
+    "id": 18,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/370eb42ba2a24774b7222c5403ac42aa_584x584.webp",
+    "pizzaName": "3 пиццы",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 799,
+    "category": 1,
+    "rating": 7
+  },
+  {
+    "id": 19,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/febd68ce05e7409aa27f0b1680e1adff_584x584.png",
+    "pizzaName": "Мясной Микс",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 489,
+    "category": 1,
+    "rating": 7
+  },
+  {
+    "id": 20,
+    "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/2a8c59ed778243b0b024ca6a5426c747_584x584.png",
+    "pizzaName": "Песто",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      26,
+      30,
+      40
+    ],
+    "price": 489,
+    "category": 1,
     "rating": 7
   }
 ]
